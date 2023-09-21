@@ -4,6 +4,9 @@ export default function Page() {
   return (
     <>
       <h1>Welcome to Sessions Page</h1>
+      <h2>
+        <Link href="/conference">Back to Conference</Link>
+      </h2>
     </>
   );
 }
